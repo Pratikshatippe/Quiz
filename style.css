@@ -1,0 +1,22 @@
+:root{
+    --color-1:#ADC3D6;
+    --color-2:#F9EFEF;
+}
+.inner{
+margin:0;
+padding:0;
+align-items: center;
+display:flex;
+height:100vh;
+width: 100vw;
+float: left;
+justify-content: center;
+background-color: var(--color-1);
+border-radius: 30px;
+}
+.btn{
+    background-color: var(--color-2);
+    width:12%;
+    height:12%;
+    border-radius: 20px;
+}
