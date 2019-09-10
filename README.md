@@ -1,3 +1,6 @@
-# Quiz
+# Application Name
 Quiz Application
-#Author name 
+## Author name 
+Pratiksha Tippe, Guru Prasath
+### technology
+HTML, CSS and Javascript
