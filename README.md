@@ -1,3 +1,3 @@
 # Quiz
 Quiz Application
-this is pratiksha
+this is pratiksha repository
