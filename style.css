@@ -22,6 +22,27 @@
     background-color: var(--color-1);
     border-radius: 30px;
 }
+.start{
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    display:flex;
+}
+.unique{
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    display:flex;
+    color: var(--color-3);
+    font-size: 45;
+    font-family: PT Serif Caption;
+}
+.logo{
+    align-items: top;
+    justify-content: center;
+    height: 30%;
+    display:flex;
+}
 .btn{
     background-color: var(--color-2);
     widows: 50px;;
