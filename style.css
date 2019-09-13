@@ -22,6 +22,7 @@
     justify-content: center;
     background-color: var(--color-4);
     border-radius: 30px;
+    overflow: hidden;
 }
 .rect-1{
     height:96vh;
@@ -56,7 +57,7 @@
 }
 .btn{
     background-color: var(--color-2);
-    width: 170px;;
+    width: 170p;;
     height:70px;
     border-radius: 30px;
     font-family: Roboto;
@@ -110,15 +111,16 @@
     background-color: var(--color-5);
 }
 .next-previous{
-    padding: 0;
+    padding-left: 24vw;
+    padding-top: 10px;
     height:20vh;
 }
 .next,.previous{
     width: 50vw;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
-    display: flex;
+    /* display: flex; */
     /* margin-right: 10vw; */
 }
 
