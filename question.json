@@ -1,0 +1,30 @@
+{
+    "Q1": {
+		"question": "The brain of any computer system is",
+		"options": [
+			"ALU",
+			"Memory",
+			"CPU",
+			"Control unit"
+		]
+    },
+    "Q2": {
+        "questions":"ques 2",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    "Q3": {
+        "questions":"ques 2",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    }
+} 
+    
