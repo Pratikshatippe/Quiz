@@ -5,16 +5,7 @@
     --color-4:black;
     --color-5:#C5CAE9;
 }
-.inner-1{
-    align-items: center;
-    display:flex;
-    height:100vh;
-    width: 100vw;
-    justify-content: center;
-    background-color: var(--color-4);
-    border-radius: 30px;
-}
-.inner-2{
+.inner{
     align-items: center;
     display:flex;
     height:100vh;
@@ -39,6 +30,12 @@
     background-color: var(--color-3);
     border-radius: 30px;
 }
+.rect-3{
+    height:96vh;
+    width: 97vw;
+    background-color: var(--color-3);
+    border-radius: 30px;
+}
 
 .unique{
     align-items: center;
@@ -52,7 +49,7 @@
 .logo{
     align-items: top;
     justify-content: center;
-    height: 40vh;
+    height: 30vh;
     display:flex;
 }
 .btn{
@@ -67,13 +64,14 @@
 .start{
     align-items: center;
     justify-content: center;
-    height: 26vh;
+    height: 36vh;
     display:flex;
 }
 
 .header{
     height:10vh;
-    width:80vw;
+    width:85vw;
+    margin: 3vw;
 }
 .uni{
     font-size: 2em;
@@ -83,13 +81,17 @@
     text-align: center;
     align-items: center;
     background-color: var(--color-2);
-    border-radius: 22px;
+    border-radius: 40px;
 }
 .home{
+    align-items: center;
+    justify-content: center;
     color: var(--color-4);
+    font-size: 3em;
+    display: flex;
 }
 .que{
-    height:30vh;
+    height:28vh;
     margin: 3vw;
     font-size: 2em;
 }
@@ -118,10 +120,31 @@
 .next,.previous{
     width: 50vw;
     justify-content: center;
-    /* text-align: center; */
     align-items: center;
-    /* display: flex; */
-    /* margin-right: 10vw; */
+}
+.greet{
+    height:20vh;
+    width: 97vw;
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.score{
+    height:20vh;
+    width: 97vw;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.result{
+    height:20vh;
+    width: 97vw;
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 
