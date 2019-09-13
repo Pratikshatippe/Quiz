@@ -16,8 +16,13 @@ function getJSON(){
  // console.log(json);
  
      localStorage.setItem('que', JSON.stringify(questions));
-     let some = console.log(localStorage.getItem('que'));
-        document.getElementById('question').innerHTML = some;
+     let some =JSON.parse(localStorage.getItem('que'));
+
+    const keys1 = Object.keys(some);
+   let q = some[keys1[1]];
+    console.log(q["opti"]);
+    // console.log(q["options"]);
+        document.getElementById('showQues').innerHTML = q["question"];
    }
  )};
  $(document).ready(function(){
