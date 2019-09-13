@@ -16,6 +16,21 @@ function getJSON(){
  // console.log(json);
  
      localStorage.setItem('que', JSON.stringify(questions));
-     console.log(localStorage.getItem('que'));
+     let some = console.log(localStorage.getItem('que'));
+        document.getElementById('question').innerHTML = some;
    }
  )};
+ $(document).ready(function(){
+    $(".next").click(function(){
+        $(".header").show();
+        $(".next-previous").show();
+        $(".que").show();
+        $(".ans").hide();
+    })
+    $(".previous").click(function(){
+        $(".header").show();
+        $(".next-previous").show();
+        $(".que").show();
+        $(".ans").show();
+    })
+});
