@@ -1,30 +1,222 @@
+[
 {
-    "Q1": {
-		"question": "The brain of any computer system is",
-		"options": [
-			"ALU",
-			"Memory",
-			"CPU",
-			"Control unit"
-		]
-    },
-    "Q2": {
-        "questions":"ques 2",
-        "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-        ]
-    },
-    "Q3": {
-        "questions":"ques 2",
-        "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-        ]
-    }
-} 
-    
+    "1": [{
+        "question": "ISRO has decided to set up the Space Situational Awareness Control Centre in which city?",
+        "options": [{
+            "0": "Chennai",
+            "1": "Noida",
+            "2": "Kochin",
+            "3": "Bengaluru"
+        }]
+    }]
+},
+{
+    "2": [{
+        "question": "How many MoU's were handed over during the National Conference of Tourism Ministers for the prospective of 'Monument Mitras'?",
+        "options": [{
+            "0": "2",
+            "1": "3",
+            "2": "4",
+            "3": "5"
+        }]
+    }]
+},
+{
+    "3": [{
+        "question": "With which company, ISRO signed a contract to train Indian astronauts for 'Gaganyaan'?",
+        "options": [{
+            "0": "CNES",
+            "1": "Glavcosmos",
+            "2": "SSAU Ukraine",
+            "3": "NADA"
+        }]
+    }]
+},
+{
+    "4": [{
+        "question": "India's Haj Quota increased from 1.75 lakh to __________ by Saudi Arabia.",
+        "options": [{
+            "0": "2 lakh",
+            "1": "2.2 lakh",
+            "2": "2.5 lakh",
+            "3": "3 lakh"
+        }]
+    }]
+},
+{
+    "5": [{
+        "question": "Who won the Ukraine presidential election, recently",
+        "options": [{
+            "0": "Oleh Tyahnybok",
+            "1": "Ihor Kilomoyskyi",
+            "2": "Volodymyr Zelenskiy",
+            "3": "Alexander Zakharchenko"
+        }]
+    }]
+},
+{
+    "6": [{
+        "question": "Who has been appointed as new Prime Minister of Israel",
+        "options": [{
+            "0": "Benjami Netanyahu",
+            "1": "Reuven Rivlin",
+            "2": "Benny Gantz",
+            "3": "Yisrael Katz"
+        }]
+    }]
+},
+{
+    "7": [{
+        "question": "Who claimed a bronze medal in the women's 5000m race?",
+        "options": [{
+            "0": "Ashwini Nachappa",
+            "1": "Dutee Chand",
+            "2": "Anju Bobby George",
+            "3": "Parul Chaudhary"
+        }]
+    }]
+},
+{
+    "8": [{
+        "question": "Name of the olympic athlete who has banned for 4 years for doping",
+        "options": [{
+            "0": "Asbel Kiprop",
+            "1": "Nick Wills",
+            "2": "Clijah Manangoi",
+            "3": "Mo Farah"
+        }]
+    }]
+},
+{
+    "9": [{
+        "question": "When did the World Creativity and Innovation Day was observed?",
+        "options": [{
+            "0": "17th April",
+            "1": "18th April",
+            "2": "21st April",
+            "3": "22nd April"
+        }]
+    }]
+},
+{
+    "10": [{
+        "question": "Annu Rani bagged __________ in Asian Athletics Championship 2019.",
+        "options": [{
+            "0": "Gold",
+            "1": "Silver",
+            "2": "Bronze",
+            "3": "None of the above"
+        }]
+    }]
+},
+{
+    "11": [{
+        "question": "How many states have joined in a pan-India network of single emergency helpline number '112'?",
+        "options": [{
+            "0": "8",
+            "1": "15",
+            "2": "20",
+            "3": "22"
+        }]
+    }]
+},
+{
+    "12": [{
+        "question": "What is the position of India in the Startup Ecosystem Ranking for 2019?",
+        "options": [{
+            "0": "51",
+            "1": "32",
+            "2": "17",
+            "3": "28"
+        }]
+    }]
+},
+{
+    "13": [{
+        "question": "Which of the following Indian Movie won best cinematography at 2019 Beijing International Film Festival?",
+        "options": [{
+            "0": "Sanju",
+            "1": "Bhayanakam",
+            "2": "2.0",
+            "3": "Badhaai Ho"
+        }]
+    }]
+},
+{
+    "14": [{
+        "question": "Who has appointed as a new Chairman of Export Promotion Council for Handicraft (EPCH)?",
+        "options": [{
+            "0": "Dhivyansh Sadh",
+            "1": "Ravinder Kumar Passi",
+            "2": "Janmejay Maurya",
+            "3": "Renuka Maheshwari"
+        }]
+    }]
+},
+{
+    "15": [{
+        "question": "Which Indian boxer clinched gold in Boxing World Cup in 54 kg?",
+        "options": [{
+            "0": "Sakshi Chaudhary",
+            "1": "Pinki Rani",
+            "2": "Pwilao Basumatary",
+            "3": "Meena Kumari Maisnam"
+        }]
+    }]
+},
+{
+    "16": [{
+        "question": "Who has been appointed to Board of Dierctions in Paytm Payments Bank (PPB)?",
+        "options": [{
+            "0": "Aditya Puri",
+            "1": "Bhavesh Chandulal Zaveri",
+            "2": "Ramesh Ganesan",
+            "3": "Sairee Chanhal"
+        }]
+    }]
+},
+{
+    "17": [{
+        "question": "As per 2011 Census, the urban population percentage to total population of India was about",
+        "options": [{
+            "0": "21",
+            "1": "31",
+            "2": "36",
+            "3": "40"
+        }]
+    }]
+},
+{
+    "18": [{
+        "question": "A Judge of the Supreme Court may resign his office by writing to -",
+        "options": [{
+            "0": "the President",
+            "1": "the Prime Minister",
+            "2": "the Law Minister",
+            "3": "the Attorney General of India"
+        }]
+    }]
+},
+{
+    "19": [{
+        "question": "Who was the first Chairman of the Backward Classes Commission ?",
+        "options": [{
+            "0": "Jagjivan Ram",
+            "1": "Kaka Sahab Kalelkar",
+            "2": "B. D. Sharma",
+            "3": "B. R. Ambedkar"
+        }]
+    }]
+},
+{
+    "20": [{
+        "question": "In order to be chosen a member of the Lok Sabha, a person must not be less than the age of -",
+        "options": [{
+            "0": "18 years",
+            "1": "21 years",
+            "2": "25 years",
+            "3": "30 years"
+        }]
+    }]
+}
+]
