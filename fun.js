@@ -20,9 +20,13 @@ function getJSON(){
 
     const keys1 = Object.keys(some);
    let q = some[keys1[1]];
-    console.log(q["opti"]);
+    console.log(q["question"]);
     // console.log(q["options"]);
         document.getElementById('showQues').innerHTML = q["question"];
+        document.getElementById('a').innerHTML = q["options"]["a"];
+        document.getElementById('b').innerHTML = q["options"]["b"];
+        document.getElementById('c').innerHTML = q["options"]["c"];
+        document.getElementById('d').innerHTML = q["options"]["d"];
    }
  )};
  $(document).ready(function(){
