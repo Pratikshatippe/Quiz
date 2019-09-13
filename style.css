@@ -1,0 +1,22 @@
+.container-fluid{
+    margin:0;
+    padding:0;
+    height:100em;
+    width:100em;
+}
+#mainrow{
+   /* height:;
+   width:100%; */
+   background-color:green;
+   /* height:45em;
+   width:100em; */
+} 
+#firstcolumn{
+    background-color: brown;
+}
+#secondcolumn{
+    background-color: aqua;
+}
+#thirdcolumn{
+    background-color: maroon;
+} 
