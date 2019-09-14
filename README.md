@@ -8,9 +8,9 @@
  Guru Prasath
 
 ## Technology Used
- HTML
- CSS
- Bootstrap
+ HTML,
+ CSS,
+ Bootstrap, and 
  JavaScript
 
  Local Storage is used to store data.
