@@ -9,7 +9,7 @@
 $(function(){
     getJSON();
 })
-        
+// Store and access data from local storage
 function getJSON(){
     $.getJSON('question.json',function(json){
         questions = json;
