@@ -1,6 +1,8 @@
 # Application Name
-Quiz Application
+Quiz Application: Unique
 ## Author name 
 Pratiksha Tippe
-### technology
+### Technology
 HTML, CSS and Javascript
+#### Design
+![sceenshot](Quiz.png)
