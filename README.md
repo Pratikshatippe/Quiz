@@ -1,7 +1,7 @@
 # Application Name
 Quiz Application: Unique
 ## Author name 
-Pratiksha Tippe
+Pratiksha Tippe, Guru Prasath
 ### Technology
 HTML, CSS and Javascript
 #### Design
