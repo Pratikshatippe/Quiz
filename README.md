@@ -1,4 +1,4 @@
-#Quiz Application
+## Quiz Application
 
 ## Author -
 
@@ -11,6 +11,7 @@ A simple quiz application which allows users to take tests and review their perf
 ## Buid with - 
 
 Basic Html ,Css and Java script .
+
 Uses Local Storage to access data.
 
 ## Responsive across all platforms.
