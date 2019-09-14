@@ -1,10 +1,21 @@
 # Application Name
+
 Quiz Application: Unique
-## Author name 
-Pratiksha Tippe, Guru Prasath
-### Technology
-HTML, CSS and Javascript
-#### Design
+
+## Authors name
+# Pratiksha Tippe
+
+# Guru Prasath
+
+## Technology Used
+# HTML, CSS,  and Javascript
+# CSS
+# Bootstrap
+# JavaScript
+
+Local Storage is used to store data.
+
+## Design
 ![sceenshot](Quiz.png)
 
 
