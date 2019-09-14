@@ -1,60 +1,13 @@
-// const array = [
-//     {que:"Q1.The brain of any computer system", A:"ALU", B:"Memory", C:"Control Unit", D:"CPU"}
-// ];
-// document.getElementsByClassName('que').innerHTML=array[0].que;
-// document.getElementsById('a').innerHTML=array[0].A;
-// document.getElementById('b').innerHTML=array[0].B;
-// document.getElementById('c').innerHTML=array[0].C;
-// document.getElementById('d').innerHTML=array[0].D;
-// $(function(){
-//     getJSON();
-// })
-// // Store and access data from local storage
-// function getJSON(){
-//     $.getJSON('question.json',function(json){
-//         questions = json;
-//  // console.log(json);
- 
-//      localStorage.setItem('que', JSON.stringify(questions));
-//      let some =JSON.parse(localStorage.getItem('que'));
-
-//     const keys1 = Object.keys(some);
-//    let q = some[keys1[1]];
-//     console.log(q["question"]);
-//     // console.log(q["options"]);
-//         document.getElementById('showQues').innerHTML = q["question"];
-//         document.getElementById('a').innerHTML = q["options"]["a"];
-//         document.getElementById('b').innerHTML = q["options"]["b"];
-//         document.getElementById('c').innerHTML = q["options"]["c"];
-//         document.getElementById('d').innerHTML = q["options"]["d"];
-//    }
-//  )};
-//  $(document).ready(function(){
-//     $(".next").click(function(){
-//         $(".header").show();
-//         $(".next-previous").show();
-//         $(".que").show();
-//         $(".ans").hide();
-//     })
-//     $(".previous").click(function(){
-//         $(".header").show();
-//         $(".next-previous").show();
-//         $(".que").show();
-//         $(".ans").show();
-//     })
-// });
-/*
-** Intitialization
-*/
+// Intitialization
 let page = 0;
 let randSortArr = new Array();
 let questionsAndAnswers = new Array();
 let randomVal;
 let selectedAnswers = new Array();
 let correctAnswers = {0:0, 1:1, 2:2, 3:3, 4:1, 5:2, 6:0, 7:3, 8:0, 9:2, 10:1, 11:2, 12:2, 13:1, 14:1, 15:3, 16:3, 17:1, 18:0, 19:1, 20:2};
-/*
-** Fetch JSON file data
-*/		
+
+// fetch JSON file data
+		
 fetch('./question.json', {mode: 'cors'})
   .then(function(response) {
     return response.text();
@@ -66,15 +19,15 @@ fetch('./question.json', {mode: 'cors'})
   .catch(function(error) {
     console.log('JSON Request failed', error)
   });
-/*
-** Fetch local storage data
-*/
+
+//  Fetch local storage data
+
 var x = localStorage.getItem("Quiz");
 questionsAndAnswers = JSON.parse(x);
 
-/*
-** At the time of window load
-*/
+
+//  At the time of window load
+
 $(document).ready(function() {
 	$('#prev').hide();
 	$('#sub').hide();
@@ -90,9 +43,9 @@ $(document).ready(function() {
 	quesDisp(arr1, page);
 });
 
-/*
-** Function onclick previous selection
-*/
+
+//  Function onclick previous selection
+
 function prev() {
 	$('#sub').hide();
 	$('#next').show();
@@ -110,9 +63,9 @@ function prev() {
 	quesDisp(arr1, page, "prev");
 }
 
-/*
-** Function onclick next selection
-*/
+
+//  Function onclick next selection
+
 function next() {
 	if(page === 19) {
 		$('#next').hide();
@@ -130,18 +83,18 @@ function next() {
 	quesDisp(arr1, page, "next");
 }
 
-/*
-** Function random
-*/
+
+//  Function random
+
 function random() {
 	randomVal = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
 	randomVal.sort(function(a, b){return 0.5 - Math.random()});
 	return randomVal;
 }
 
-/*
-** Function Sel Ques
-*/
+
+//  Function Sel Ques
+
 function selQues(pos) {
   let j=5;
   let quesNum;
@@ -157,9 +110,9 @@ function selQues(pos) {
 	return [arrNum, quesNum, ansNum];
 }
 
-/*
-** Function Ques Disp
-*/
+
+// Function Ques Disp
+
 function quesDisp(arr, page, action) {
 	let checked;
 	let rowSel;
@@ -184,9 +137,9 @@ function quesDisp(arr, page, action) {
 	}
 }
 
-/*
-** Onclick radio box
-*/
+
+//  Onclick radio box
+
 function radioClick(ques, ans, id) {
 	let tempArray = [ques, ans, id];
   // check whether the value already been inserted or not
@@ -200,18 +153,17 @@ function radioClick(ques, ans, id) {
 	selectedAnswers.push(tempArray);
 }
 
-/*
-** Removing existing array
-*/
+
+//  Removing existing array
+
 function arrayRemove(arr, value) {
    return arr.filter(function(ele){
        return ele != value;
    });
 }
-// 
-/*
-** On submit full quiz
-*/
+
+// removed dead  On submit full quiz
+
 function submit() {
     $('.que').hide();
     $('.ans').hide();
