@@ -212,13 +212,11 @@ function arrayRemove(arr, value) {
 /*
 ** On submit full quiz
 */
-
-function showAns() {
-    // $('.que').hide();
-    // $('.ans').hide();
-    $('.result').hide();
-    $('.score').hide();
-    $('.greet').hide();
+function submit() {
+    $('.que').hide();
+    $('.ans').hide();
+    $('.next-previous').hide();
+    $('.submit').hide();
   
 	// show answers
     let e = $('<div class="row"><h1>Results</h1></div>');

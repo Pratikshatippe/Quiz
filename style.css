@@ -17,6 +17,7 @@
     overflow: hidden;
 }
 .container{
+    height:80vh;
     overflow: scroll;
 }
 .rect-1{
