@@ -2,5 +2,7 @@
 Quiz Application
 ## Author name 
 Pratiksha Tippe
-### technology
+### Technology
 HTML, CSS and Javascript
+#### Design
+![sceenshot](Quiz.png)
