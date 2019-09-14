@@ -14,6 +14,9 @@
  JavaScript
 
  Local Storage is used to store data.
+ 
+## Description 
+ A Quiz Application which allows users to take tests and review their performance.
 
 ## Design
 
