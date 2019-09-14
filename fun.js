@@ -182,15 +182,38 @@ function submit() {
     let d;
     if(m[2] === correctAnswers[m[0]]) {
       // if selected answer is right -- show in green!!
-      d = $('<div class="cl-lg-12"><h3 id="showQues"><span><font style="color: #1f8c76;">'+cnt+'. '+questionsAndAnswers[0][m[0]][0][m[0]]+'</font></span></h3></div><div class="row"><h4>Selected Ans: <font color="blue;">'+questionsAndAnswers[0][m[0]][0][m[1]][0][m[2]]+'</font></h4></div>');
+      d = $('<div class="cl-lg-12 output"><h3 id="showQues"><span>'+cnt+'. '+questionsAndAnswers[0][m[0]][0][m[0]]+'</font></span></h3></div><div class="row"><h4> Selected Ans: <font color="blue;">'+questionsAndAnswers[0][m[0]][0][m[1]][0][m[2]]+'</font></h4></div>');
       d.attr('id', 'ques_'+m+'');
       $('#showAnswers').append(d);
     } else {
       // if selected answer is right -- show in red!!
-      d = $('<div class="cl-lg-12"><h3 id="showQues"><span><font style="color: #1f8c76;">'+cnt+'. '+questionsAndAnswers[0][m[0]][0][m[0]]+'</font></span></h3></div><div class="row"><h4>Selected Ans: <font color="blue;">'+questionsAndAnswers[0][m[0]][0][m[1]][0][m[2]]+'</font></h4><h4><font color="blue"> Right Ans:'+questionsAndAnswers[0][m[0]][0][m[1]][0][correctAnswers[m[0]]]+'</font></h4></div>');
+      d = $('<div class="cl-lg-12 output"><h3 id="showQues"><span>'+cnt+'. '+questionsAndAnswers[0][m[0]][0][m[0]]+'</font></span></h3></div><div class="row"><h4> Selected Ans: <font color="blue;">'+questionsAndAnswers[0][m[0]][0][m[1]][0][m[2]]+'</font></h4><h4><font color="blue"> Right Ans:'+questionsAndAnswers[0][m[0]][0][m[1]][0][correctAnswers[m[0]]]+'</font></h4></div>');
       d.attr('id', 'ques_'+m+'');
       $('#showAnswers').append(d);
     }
 		cnt++;
 	});
 }
+// getting score
+// function getScore(){
+//     $('.greet').hide();
+//     $('.score').hide();
+//     $('.result').hide();
+
+//     var score=0;
+//     var numQuestions=20;
+    
+//     for (var i=0;i<numQuestions;i++){
+//     if (selectedAnswers[i]==correctAnswers[i]){
+//     score += 1;
+//     }
+//     else{
+//     score += 0;
+//     }
+    
+//     }
+//     return score;
+//     }
+//     function returnScore(){
+//     alert("Your score is "+getScore()+"/10");
+//     }
