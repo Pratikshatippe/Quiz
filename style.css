@@ -4,6 +4,7 @@
     --color-3:white;
     --color-4:black;
     --color-5:#C5CAE9;
+    --color-6:rgb(57, 221, 57);
 }
 .inner{
     align-items: center;
@@ -14,6 +15,9 @@
     background-color: var(--color-4);
     border-radius: 30px;
     overflow: hidden;
+}
+.container{
+    overflow: scroll;
 }
 .rect-1{
     height:96vh;
@@ -93,40 +97,49 @@
     cursor: pointer;
 }
 .que{
-    height:25vh;
+    height:30vh;
     margin: 3vw;
-    font-size: 2em;
-}
-.ans{
-    height: 40vh;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    font-size: 3em;
 }
 /* answers style */
-.ans-1,.ans-2,.ans-3,.ans-4{
-    height: 9.2vh;
-    width: 70vw;
-    margin-top:0.1vh;
-    margin-bottom: 0.1vh;
+.ans{
+    height: 30vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top:2vh;
+    display: inherit;
+    font-size: 2em;
     justify-content: center;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    border-radius: 14px;
-    background-color: var(--color-5);
+    /* align-items: center; */
     cursor: pointer;
 }
+.radio{
+    background-color:var(--color-5);
+    border-radius: 10px;
+
+}
 .next-previous{
-    padding-left: 24vw;
-    padding-top: 10px;
+    margin:1vw;
+    width:96vw;
     height:20vh;
     cursor: pointer;
 }
-.next,.previous{
-    width: 50vw;
+.next,.prev{
+    background-color: var(--color-2);
+    height:4vh;
+    width: 20vw;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+.submit{
+    background-color: var(--color-6);
+    height:4vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-3);
 }
 .greet{
     height:20vh;
@@ -151,6 +164,14 @@
     align-items: center;
     justify-content: center;
     display: flex;
+}
+.show{
+height:20vh;
+width: 97vw;
+font-size: 2em;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
 
 

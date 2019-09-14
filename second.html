@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="style.css">
         
     </head>
@@ -24,18 +24,16 @@
                     <!-- Display question -->
                     <div class="row que" id="showQues">Q1</div>
                     <!-- multiple choice answer -->
-                    <div  class="row ans" id="appendInfo">
-                        <div class="row row ans-1" id="a">1</div>
-                        <div class="row row ans-2" id="b">2</div>
-                        <div class="row row ans-3" id="c">3</div>
-                        <div class="row row ans-4" id="d">4</div>
-                    </div>
+                    <div  class="row ans" id="appendInfo"></div> 
                     <!-- Go next and previous button -->
                     <div class="row next-previous">
-                            <div class="col-6 glyphicon previous">&#xe079;</div>
-                            <div class="col-6 glyphicon next"><a href="last.html"></a>&#xe080;</a></div>
+                        <button class="btn btn-primary col-6 prev" onclick="prev()" id="prev">Prev</button>
+                        <button class="btn btn-primary col-6 next" onclick="next()" id="next" >Next</button>
+                        <a href="last.html"><button class="btn-success col-6 submit" onclick="submit()" id="sub">Submit</button></a>
                     </div>
-                
+                    <div id="resCont" class="container">
+                        <div id="showAnswers">				
+                      </div>
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
