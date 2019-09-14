@@ -1,20 +1,20 @@
 {
 	"q1": {
-		"question": "Which one is correct team name in NBA?",
+		"question": "Q1. Who has acquired the google backed online platform ‘Fynd’?",
 		"options": [
-			{"a":"New York Bulls"},
-			{"b":"Los Angeles Kings"},
-                {"c":"Golden State Warriros"},
-                    {"d":"Huston Rocket"}
+			{"a": "Tata Group"},
+            {"b": "Reliance Industries Limited"},
+            {"c": "Wipro"},
+            {"d": "ITC Limited"}
 		]
 	},
 	"q2": {
-		"question": "Which one is WRONG team name in NBA?",
+		"question": "Q2. ISRO has decided to set up the Space Situational Awareness Control Centre in which city?",
 		"options": [
-			{"a":"New York Bulls"},
-			{"b":"Los Angeles Kings"},
-			{"c":"Golden State Warriros"},
-			{"d":"Huston Rocket"}
+			{"a":  "Chennai"},
+			{"b": "Noida"},
+				{"c": "Kochin"},
+				{"d": "Bengaluru"}
 		]
 	}
 }
