@@ -6,5 +6,5 @@ Pratiksha Tippe, Guru Prasath
 HTML, CSS and Javascript.
 
 Local Storage is used for storing data.
-#### Design
+### Design
 ![sceenshot](Quiz.png)
