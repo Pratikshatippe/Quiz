@@ -1,5 +1,5 @@
 # Application Name
-Quiz Application
+Quiz Application: Unique
 ## Author name 
 Pratiksha Tippe
 ### Technology
