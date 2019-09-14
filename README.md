@@ -1,7 +1,11 @@
+# Application Name
+Quiz Application: Unique
+## Author name 
+Pratiksha Tippe, Guru Prasath
+### Technology
+HTML, CSS and Javascript
+#### Design
+![sceenshot](Quiz.png)
 
-# Quiz
-Quiz application conatins different type of multiple choice questions.
-## Name of Application
-Unique
-### Design of Unique App
-![Screenshot](Quiz.png)
+
+
