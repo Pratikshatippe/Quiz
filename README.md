@@ -1,6 +1,6 @@
 # Application Name
 
- Quiz Application: Unique
+ Quiz Application : Unique
 
 ## Authors name
  Pratiksha Tippe
@@ -16,6 +16,7 @@
  Local Storage is used to store data.
 
 ## Design
+
 ![sceenshot](Quiz.png)
 
 
