@@ -1,3 +1,4 @@
+// javascript file for quiz application
 // Intitialization
 let page = 0;
 let randSortArr = new Array();
