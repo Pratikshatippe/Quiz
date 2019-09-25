@@ -194,26 +194,3 @@ function submit() {
 		cnt++;
 	});
 }
-// getting score
-// function getScore(){
-//     $('.greet').hide();
-//     $('.score').hide();
-//     $('.result').hide();
-
-//     var score=0;
-//     var numQuestions=20;
-    
-//     for (var i=0;i<numQuestions;i++){
-//     if (selectedAnswers[i]==correctAnswers[i]){
-//     score += 1;
-//     }
-//     else{
-//     score += 0;
-//     }
-    
-//     }
-//     return score;
-//     }
-//     function returnScore(){
-//     alert("Your score is "+getScore()+"/10");
-//     }
