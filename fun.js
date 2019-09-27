@@ -175,7 +175,7 @@ function submit() {
     $('.submit').hide();
   
 	// show answers
-    let e = $('<div class="row"><h1 id="s">Score </span><br> <br> <h2>Results</h2></div>');
+	let e = $(`<marquee behavior="scroll" direction="left"> <div class="row"> <h1> Your Score is:  </h1> <h1 id="s">  a </h1> </marquee> <br> <h1> <br> <br> Results</h1></div>`);
     // console.log(score);
 	e.attr('id', 'radio_'+page+'');
 	$('#showAnswers').append(e);
@@ -194,7 +194,7 @@ function submit() {
 	  
     } else {
       // if selected answer is right -- show in red!!
-      d = $('<div class="cl-lg-12 output"><h3 id="showQues"><span>'+cnt+'. '+questionsAndAnswers[0][m[0]][0][m[0]]+'</font></span></h3></div><div class="row"><h4> Selected Ans: <font color="blue;">'+questionsAndAnswers[0][m[0]][0][m[1]][0][m[2]]+'</font></h4><h4><font color="blue"> Right Ans:'+questionsAndAnswers[0][m[0]][0][m[1]][0][correctAnswers[m[0]]]+'</font></h4></div>');
+      d = $('<div class="cl-lg-12 output"><h3 id="showQues"><span>'+cnt+'. '+questionsAndAnswers[0][m[0]][0][m[0]]+'</font></span></h3></div><div class="row"><h4> Selected Ans: <font color="blue;">'+questionsAndAnswers[0][m[0]][0][m[1]][0][m[2]]+'</font></h4><h4><font color="green"> Right Ans:'+questionsAndAnswers[0][m[0]][0][m[1]][0][correctAnswers[m[0]]]+'</font></h4></div>');
       d.attr('id', 'ques_'+m+'');
       $('#showAnswers').append(d);
 	}	
