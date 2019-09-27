@@ -22,7 +22,7 @@
 
 ![sceenshot](Quiz.png)
 ### preview
-https://pratikshatippe.github.io/Quiz/
+ https://pratikshatippe.github.io/QuizApplication/
 
 
 
