@@ -6,7 +6,8 @@ let questionsAndAnswers = new Array();
 let randomVal;
 let selectedAnswers = new Array();
 let correctAnswers = {0:0, 1:1, 2:2, 3:3, 4:1, 5:2, 6:0, 7:3, 8:0, 9:2, 10:1, 11:2, 12:2, 13:1, 14:1, 15:3, 16:3, 17:1, 18:0, 19:1, 20:2};
-
+let scoreAnswers = [[0,5,0], [1,6,1], [2,7,2], [3,8,3], [4,9,1], [5,10,2], [6,11,0], [7,12,3], [8,13,0], [9,14,2], [10,15,1], [11,16,2]];
+let score = 0;
 // fetch JSON file data
 		
 fetch('./question.json', {mode: 'cors'})
@@ -18,7 +19,7 @@ fetch('./question.json', {mode: 'cors'})
     localStorage.setItem("Quiz",data);
   })
   .catch(function(error) {
-    console.log('JSON Request failed', error)
+    // console.log('JSON Request failed', error)
   });
 
 //  Fetch local storage data
@@ -145,13 +146,16 @@ function radioClick(ques, ans, id) {
 	let tempArray = [ques, ans, id];
   // check whether the value already been inserted or not
   for(let i=0; i<selectedAnswers.length; i++) {
-    if(selectedAnswers[i][0] === ques) {
+	if(selectedAnswers[i][0] === ques) {
       // alert("here");
-      selectedAnswers[i] = tempArray;
+	  selectedAnswers[i] = tempArray;
+	//   console.log(selectedAnswers[i]);
       return
     }
   }
 	selectedAnswers.push(tempArray);
+
+	
 }
 
 
@@ -182,16 +186,24 @@ function submit() {
 
     let d;
     if(m[2] === correctAnswers[m[0]]) {
+		score++;
+		// console.log(score); 
       // if selected answer is right -- show in green!!
       d = $('<div class="cl-lg-12 output"><h3 id="showQues"><span>'+cnt+'. '+questionsAndAnswers[0][m[0]][0][m[0]]+'</font></span></h3></div><div class="row"><h4> Selected Ans: <font color="blue;">'+questionsAndAnswers[0][m[0]][0][m[1]][0][m[2]]+'</font></h4></div>');
       d.attr('id', 'ques_'+m+'');
-      $('#showAnswers').append(d);
+	  $('#showAnswers').append(d);
+	  
     } else {
       // if selected answer is right -- show in red!!
       d = $('<div class="cl-lg-12 output"><h3 id="showQues"><span>'+cnt+'. '+questionsAndAnswers[0][m[0]][0][m[0]]+'</font></span></h3></div><div class="row"><h4> Selected Ans: <font color="blue;">'+questionsAndAnswers[0][m[0]][0][m[1]][0][m[2]]+'</font></h4><h4><font color="blue"> Right Ans:'+questionsAndAnswers[0][m[0]][0][m[1]][0][correctAnswers[m[0]]]+'</font></h4></div>');
       d.attr('id', 'ques_'+m+'');
       $('#showAnswers').append(d);
-    }
+	}	
 		cnt++;
 	});
+	console.log(score);
 }
+
+
+
+	
