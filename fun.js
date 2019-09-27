@@ -175,8 +175,8 @@ function submit() {
     $('.submit').hide();
   
 	// show answers
-    let e = $('<div class="row"><h1>Results</h1></div>');
-    // console.log(e);
+    let e = $('<div class="row"><h1 id="s">Score </span><br> <br> <h2>Results</h2></div>');
+    // console.log(score);
 	e.attr('id', 'radio_'+page+'');
 	$('#showAnswers').append(e);
 
@@ -200,7 +200,7 @@ function submit() {
 	}	
 		cnt++;
 	});
-	console.log(score);
+	document.getElementById('s').innerHTML=score;
 }
 
 
