@@ -6,7 +6,6 @@ let questionsAndAnswers = new Array();
 let randomVal;
 let selectedAnswers = new Array();
 let correctAnswers = {0:0, 1:1, 2:2, 3:3, 4:1, 5:2, 6:0, 7:3, 8:0, 9:2, 10:1, 11:2, 12:2, 13:1, 14:1, 15:3, 16:3, 17:1, 18:0, 19:1, 20:2};
-let scoreAnswers = [[0,5,0], [1,6,1], [2,7,2], [3,8,3], [4,9,1], [5,10,2], [6,11,0], [7,12,3], [8,13,0], [9,14,2], [10,15,1], [11,16,2]];
 let score = 0;
 // fetch JSON file data
 		
