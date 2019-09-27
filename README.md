@@ -20,7 +20,7 @@
 
 ## Design
 
-![sceenshot](../Images/Quiz.png)
+![sceenshot](Quiz.png)
 ### preview
 https://pratikshatippe.github.io/Quiz/
 
