@@ -21,8 +21,6 @@
 ## Design
 
 ![sceenshot](Quiz.png)
-### preview
- https://pratikshatippe.github.io/QuizApplication/
 
 
 
