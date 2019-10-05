@@ -22,5 +22,8 @@
 
 ![sceenshot](Quiz.png)
 
+### Preview
+https://pratikshatippe.github.io/QuizApplication/
+
 
 
