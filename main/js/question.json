@@ -1,0 +1,92 @@
+{
+"0" : {
+    "question" : "Q1.ISRO has decided to set up the Space Situational Awareness Control Centre in which city?",
+    "options" : [ 
+        "Chennai", 
+        "Noida", 
+        "Kochin", 
+        "Bengaluru"
+    ],
+    "ans" : "Noida"
+},
+"1" : {
+    "question" : "Q2.Which one is WRONG team name in NBA?",
+    "options" : [ 
+        "New York Bulls", 
+        "Los Angeles Kings", 
+        "Golden State Warriros", 
+        "Huston Rocket"
+    ],
+    "ans" : "Huston Rocket"
+},
+"2" : {
+    "question" : "Q3.Who has acquired the google backed online platform ‘Fynd’?",
+    "options" : [ 
+        "Tata Group", 
+        "Reliance Industries Limited", 
+        "Wipro", 
+        "ITC Limited"
+    ],
+    "ans" : "Tata Group"
+},
+"3" : {
+    "question" : "Q4.India's Haj Quota increased from 1.75 lakh to __________ by Saudi Arabia.",
+    "options" : [ 
+        "2 lakh", 
+        "2.2 lakh", 
+        "2.5 lakh", 
+        "3 lakh"
+    ],
+    "ans" : "2.2 lakh"
+},
+"4" : {
+    "question" : "Q5.Who won the Ukraine presidential election, recently",
+    "options" : [ 
+        "Oleh Tyahnybok", 
+        "Ihor Kilomoyskyi", 
+        "Volodymyr Zelenskiy", 
+        "Alexander Zakharchenko"
+    ],
+    "ans" : "Volodymyr Zelenskiy"
+},
+"5" : {
+    "question" : "Q6.Who has been appointed as new Prime Minister of Israel",
+    "options" : [ 
+        "Benjami Netanyahu", 
+        "Reuven Rivlin", 
+        "Benny Gantz", 
+        "Yisrael Katz"
+    ],
+    "ans" : "Benjami Netanyahu"
+},
+"6" : {
+    "question" : "Q7.Who claimed a bronze medal in the women's 5000m race?",
+    "options" : [ 
+        "Ashwini Nachappa", 
+        "Dutee Chand", 
+        "Anju Bobby George", 
+        "Parul Chaudhary"
+    ],
+    "ans" : "Parul Chaudhary"
+},
+"7" : {
+    "question" : "Q8.Name of the olympic athlete who has banned for 4 years for doping",
+    "options" : [ 
+        "Asbel Kiprop", 
+        "Nick Wills", 
+        "Clijah Manangoi", 
+        "Mo Farah"
+    ],
+    "ans" : "Asbel Kiprop"
+},
+"8" : {
+    "question" : "Q9.When did the World Creativity and Innovation Day was observed?",
+    "options" : [ 
+        "17th April", 
+        "18th April", 
+        "21st April", 
+        "22nd April"
+    ],
+    "ans" : "21st April"
+}
+}

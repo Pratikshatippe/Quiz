@@ -1,0 +1,46 @@
+<!-- Quiz Module -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/main/css/style.css">
+</head>
+<body>
+  <div class="container-fluid inner">
+      <div class="rect-2">
+              <!--for unique title-->
+              <div class="row header">
+                  <a href="index.html"><div class="col uni">Unique</div></a>
+              </div>
+              <!-- Display question -->
+              <div class="row que" id="question">
+                  <p id="ques-div"></p>
+              </div>
+              <div class="row ans" id="answer">
+                  <div id="option1" class="checkAnswer"></div>
+                  <div id="option2" class="checkAnswer"></div>
+                  <div id="option3" class="checkAnswer"></div>
+                  <div id="option4" class="checkAnswer"></div>
+                  </div>
+  <!--         Button section -->
+              <div class="row next-previous">
+              <button class="btn btn-primary col next" id="next">Next</button>
+              <button class="btn btn-success col submit" id="submit">Submit</button></div>
+              <div class="displayScore">
+                <h1 class="row greet">Congratulations!</h1>
+                <h1 class="row emoji"> 🎊 </h1>
+                <h2 class="row score"> Your Score Is: <span id="score"></span></h2>
+              </div>
+      </div>
+      </div>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="/main/js/fun.js"></script>
+</html>
