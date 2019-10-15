@@ -130,12 +130,9 @@
 
  .next-previous{
     margin:1vw;
-    height:25vh;
-    padding: 5vw;
+    height:10vh;
+    padding: 3vw;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
  }
  .next{
     background-color: var(--color-2);
