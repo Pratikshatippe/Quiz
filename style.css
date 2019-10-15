@@ -5,8 +5,8 @@
     --color-4:black;
     --color-6:rgb(57, 221, 57);
     --font-family-1: Roboto;
-}
-.inner{
+ }
+ .inner{
     align-items: center;
     display:flex;
     height:100vh;
@@ -15,18 +15,18 @@
     background-color: var(--color-4);
     border-radius: 30px;
     overflow: hidden;
-}
-.container{
+ }
+ .container{
     height:80vh;
     overflow-y: overlay;
-}
-.rect-1{
+ }
+ .rect-1{
     height:96vh;
     width: 97vw;
     background-color: var(--color-1);
     border-radius: 30px;
-}
-.rect-2{
+ }
+ .rect-2{
     /* text-align: center; */
     /* display:flex; */
     height:96vh;
@@ -34,15 +34,14 @@
     justify-content: center;
     background-color: var(--color-3);
     border-radius: 30px;
-}
-.rect-3{
+ }
+ .rect-3{
     height:96vh;
     width: 97vw;
     background-color: var(--color-3);
     border-radius: 30px;
-}
-
-.unique{
+ }
+ .unique{
     align-items: center;
     justify-content: center;
     height: 30vh;
@@ -50,36 +49,36 @@
     color: var(--color-3);
     font-size: 45;
     font-family: PT Serif Caption;
-}
-.logo{
+ }
+ .logo{
     align-items: top;
     justify-content: center;
     height: 30vh;
     display:flex;
-}
-.btn{
+ }
+ .btn{
     background-color: var(--color-2);
-    width: 170p;;
-    height:70px;
     border-radius: 30px;
     font-family: Roboto;
-    font-size: 30;
     color:var(--color-4);
     cursor: pointer;
-}
-.start{
-    align-items: center;
-    justify-content: center;
+ }
+ .start{
     height: 36vh;
-    display:flex;
-}
-
-.header{
+    align-items: center;
+   justify-content: center;
+   display:flex; 
+ }
+ .startBtn{
+   width: 170px;
+    height:70px;
+    font-size: 30;
+ }
+ .header{
     height:10vh;
-    width:85vw;
     margin: 3vw;
-}
-.uni{
+ }
+ .uni{
     font-size: 3em;
     color: var(--color-3);
     justify-content: center;
@@ -88,98 +87,76 @@
     align-items: center;
     background-color: var(--color-1);
     border-radius: 40px;
-}
-.home{
+    width:85vw;
+ }
+ .home{
     align-items: center;
     justify-content: center;
     color: var(--color-4);
     font-size: 3em;
     display: flex;
     cursor: pointer;
-}
-.que{
-    height:30vh;
+ }
+ .que{
+    height:25vh;
     margin: 3vw;
     font-size: 3em;
     font-family: var(--font-family-1);
-}
-/* answers style */
-.ans{
-    height: 30vh;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    margin-top:2vh;
-    display: inherit;
-    font-size: 2em;
-    justify-content: center;
-    /* align-items: center; */
+ }
+ #ques-div{
+    font-size: 30px;
+ }
+ #answer{
+     height: 28vh;
+     font-size: 23px;
     cursor: pointer;
     font-family: var(--font-family-1);
-}
-.radio{
+    margin:2px;
+    text-align: center;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+ } 
+ .checkAnswer{
+     background-color: var(--color-2);
+     width:50vw;
+     border-radius: 10px;
+     margin-top: 7px;  
+ }
+ .checkAnswer:hover{
     background-color:var(--color-2);
-    border-radius: 10px;
+    color: var(--color-3);
+ }
 
-}
-.next-previous{
+ .next-previous{
     margin:1vw;
-    height:20vh;
+    height:25vh;
+    padding: 5vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
-}
-.next,.prev{
+    align-items: center;
+ }
+ .next{
     background-color: var(--color-2);
     height:4vh;
-    width: 20vw;
-    justify-content: center;
-    align-items: center;
+    width:50vw;
     cursor: pointer;
-}
-.submit{
+    font-family: sans-serif;
+ }
+ .submit{
     background-color: var(--color-6);
     height:4vh;
-    width: 30vw;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    width: 40vw;
     color: var(--color-3);
-}
-.greet{
-    height:20vh;
-    width: 97vw;
-    font-size: 3em;
-    align-items: center;
-    justify-content: center;
+    font-family: sans-serif;
+ }
+ .score,.greet,.emoji{
     display: flex;
-}
-.score{
-    height:20vh;
-    width: 97vw;
-    font-size: 2em;
-    align-items: center;
     justify-content: center;
-    display: flex;
-}
-.result{
-    height:20vh;
-    width: 97vw;
-    font-size: 3em;
     align-items: center;
-    justify-content: center;
-    display: flex;
-}
-.show{
-height:20vh;
-width: 97vw;
-font-size: 2em;
-align-items: center;
-justify-content: center;
-text-align: center;
-}
-.output{
-font-family: var(--font-family-1);
-}
-
-
-
+ }
+ .greet{
+    color: var(--color-6);
+ }
+ 
