@@ -7,7 +7,7 @@ let main;
 // fetch data from mongodb database
 $(document).ready(function(){
    $.ajax({
-       url:'/main/js/question.json',
+       url:'/js/question.json',
    }).done(function(data) {
        main = data;
        getQues(main);
