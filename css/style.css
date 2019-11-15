@@ -107,15 +107,15 @@
     font-size: 30px;
  }
  #answer{
-     height: 28vh;
-     font-size: 23px;
-    cursor: pointer;
-    font-family: var(--font-family-1);
-    margin:2px;
-    text-align: center;
-     justify-content: center;
-     display: flex;
-     align-items: center;
+   height: 28vh;
+   font-size: 23px;
+   cursor: pointer;
+   font-family: var(--font-family-1);
+   margin:2px;
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   align-items: center;
  } 
  .checkAnswer{
      background-color: var(--color-2);
@@ -155,5 +155,13 @@
  }
  .greet{
     color: var(--color-6);
+ }
+ .instruction{
+    height: 30vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    border-color: var(--color-1);
  }
  
